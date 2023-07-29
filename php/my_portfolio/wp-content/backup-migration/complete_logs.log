@@ -1,0 +1,422 @@
+[2023-04-17 07:45:24] [LOG] Plugin has been activated
+[2023-04-17 07:45:32] [ERROR] Shuted down
+[2023-04-17 07:45:32] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1229
+)
+
+[2023-04-17 07:45:32] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:32] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-04-17 07:45:32] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|1229
+[2023-04-17 07:45:32] [ERROR] Shuted down
+[2023-04-17 07:45:32] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:32] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:32] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:32] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:32] [ERROR] Shuted down
+[2023-04-17 07:45:32] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:32] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:32] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:32] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:32] [ERROR] Shuted down
+[2023-04-17 07:45:32] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:32] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:32] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:32] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:33] [ERROR] Shuted down
+[2023-04-17 07:45:33] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:33] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:33] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:33] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:33] [ERROR] Shuted down
+[2023-04-17 07:45:33] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:33] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:33] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:33] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:34] [ERROR] Shuted down
+[2023-04-17 07:45:34] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:34] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:34] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:34] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:36] [ERROR] Shuted down
+[2023-04-17 07:45:36] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:36] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:36] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:36] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:37] [ERROR] Shuted down
+[2023-04-17 07:45:37] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:37] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:37] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:37] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:38] [ERROR] Shuted down
+[2023-04-17 07:45:38] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:38] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:38] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:38] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:39] [ERROR] Shuted down
+[2023-04-17 07:45:39] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 07:45:39] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:39] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 07:45:39] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 07:45:43] [ERROR] Shuted down
+[2023-04-17 07:45:43] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1229
+)
+
+[2023-04-17 07:45:43] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 07:45:43] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-04-17 07:45:43] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|1229
+[2023-04-17 09:40:59] [ERROR] Shuted down
+[2023-04-17 09:40:59] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:40:59] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:40:59] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:40:59] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:40:59] [ERROR] Shuted down
+[2023-04-17 09:40:59] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1229
+)
+
+[2023-04-17 09:40:59] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:40:59] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-04-17 09:40:59] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|1229
+[2023-04-17 09:41:00] [ERROR] Shuted down
+[2023-04-17 09:41:00] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:00] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:00] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:00] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:00] [ERROR] Shuted down
+[2023-04-17 09:41:00] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:00] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:00] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:00] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:00] [ERROR] Shuted down
+[2023-04-17 09:41:00] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:00] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:00] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:00] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:01] [ERROR] Shuted down
+[2023-04-17 09:41:01] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:01] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:01] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:01] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:02] [ERROR] Shuted down
+[2023-04-17 09:41:02] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:02] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:02] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:02] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:04] [ERROR] Shuted down
+[2023-04-17 09:41:04] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:04] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:04] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:04] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:05] [ERROR] Shuted down
+[2023-04-17 09:41:05] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:05] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:05] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:05] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:07] [ERROR] Shuted down
+[2023-04-17 09:41:07] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:07] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:07] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:07] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:10] [ERROR] Shuted down
+[2023-04-17 09:41:10] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:41:10] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:10] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:41:10] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:41:11] [ERROR] Shuted down
+[2023-04-17 09:41:11] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1229
+)
+
+[2023-04-17 09:41:11] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:11] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-04-17 09:41:11] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|1229
+[2023-04-17 09:41:22] [ERROR] Shuted down
+[2023-04-17 09:41:22] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1229
+)
+
+[2023-04-17 09:41:22] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:22] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-04-17 09:41:22] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|1229
+[2023-04-17 09:41:33] [ERROR] Shuted down
+[2023-04-17 09:41:33] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1229
+)
+
+[2023-04-17 09:41:33] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:41:33] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-04-17 09:41:33] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|1229
+[2023-04-17 09:58:52] [ERROR] Shuted down
+[2023-04-17 09:58:52] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:52] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:52] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:52] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:58:52] [ERROR] Shuted down
+[2023-04-17 09:58:52] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 1229
+)
+
+[2023-04-17 09:58:52] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:52] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$lock_cli is deprecated
+[2023-04-17 09:58:52] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|1229
+[2023-04-17 09:58:52] [ERROR] Shuted down
+[2023-04-17 09:58:52] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:52] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:52] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:52] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:58:53] [ERROR] Shuted down
+[2023-04-17 09:58:53] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:53] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:53] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:53] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:58:53] [ERROR] Shuted down
+[2023-04-17 09:58:53] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:53] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:53] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:53] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:58:54] [ERROR] Shuted down
+[2023-04-17 09:58:54] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:54] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:54] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:54] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:58:54] [ERROR] Shuted down
+[2023-04-17 09:58:54] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:54] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:54] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:54] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:58:56] [ERROR] Shuted down
+[2023-04-17 09:58:56] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:56] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:56] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:56] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 09:58:58] [ERROR] Shuted down
+[2023-04-17 09:58:58] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+    [file] => C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php
+    [line] => 37
+)
+
+[2023-04-17 09:58:58] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-04-17 09:58:58] [ERROR] Error message: Creation of dynamic property BMI\Plugin\BMI_Ajax::$post is deprecated
+[2023-04-17 09:58:58] [ERROR] Error file/line: C:\xampp\htdocs\my_portfolio\wp-content\plugins\backup-backup\includes\ajax.php|37
+[2023-04-17 10:02:03] [LOG] Plugin has been deactivated

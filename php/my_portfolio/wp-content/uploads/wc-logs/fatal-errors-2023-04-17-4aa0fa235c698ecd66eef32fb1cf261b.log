@@ -1,0 +1,42 @@
+2023-04-17T12:51:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "uppercase_title" not found or invalid function name in C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\my_portfolio\wp-includes\plugin.php(205): WP_Hook->apply_filters('js', Array)
+#1 C:\xampp\htdocs\my_portfolio\wp-includes\post-template.php(173): apply_filters('the_title', 'js', 35)
+#2 C:\xampp\htdocs\my_portfolio\wp-content\plugins\simple-social-buttons\simple-social-buttons.php(1591): get_the_title()
+#3 C:\xampp\htdocs\my_portfolio\wp-content\plugins\simple-social-buttons\simple-social-buttons.php(1556): SimpleSocialButtonsPR->og_get_title()
+#4 C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php(308): SimpleSocialButtonsPR->add_meta_tags('')
+#5 C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\my_portfolio\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\my_portfolio\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\xampp\htdocs\my_portfolio\wp-content\themes\flavita\header.php(11): wp_head()
+#9 C:\xampp\htdocs\my_portfolio\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\my_portfolio\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\my_portfolio\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\my_portfolio\wp-content\themes\gradiant\index.php(15): get_header()
+#13 C:\xampp\htdocs\my_portfolio\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\my_portfolio\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\my_portfolio\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php on line 310
+
+2023-04-17T12:52:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "uppercase_title" not found or invalid function name in C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\my_portfolio\wp-includes\plugin.php(205): WP_Hook->apply_filters('js', Array)
+#1 C:\xampp\htdocs\my_portfolio\wp-includes\post-template.php(173): apply_filters('the_title', 'js', 35)
+#2 C:\xampp\htdocs\my_portfolio\wp-content\plugins\simple-social-buttons\simple-social-buttons.php(1591): get_the_title()
+#3 C:\xampp\htdocs\my_portfolio\wp-content\plugins\simple-social-buttons\simple-social-buttons.php(1556): SimpleSocialButtonsPR->og_get_title()
+#4 C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php(308): SimpleSocialButtonsPR->add_meta_tags('')
+#5 C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\my_portfolio\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\my_portfolio\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\xampp\htdocs\my_portfolio\wp-content\themes\flavita\header.php(11): wp_head()
+#9 C:\xampp\htdocs\my_portfolio\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\my_portfolio\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\my_portfolio\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\my_portfolio\wp-content\themes\gradiant\index.php(15): get_header()
+#13 C:\xampp\htdocs\my_portfolio\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\my_portfolio\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\my_portfolio\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\my_portfolio\wp-includes\class-wp-hook.php on line 310
+
