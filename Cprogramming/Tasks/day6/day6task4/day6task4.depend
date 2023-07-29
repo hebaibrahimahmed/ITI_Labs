@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1668426128 source:d:\iti\c\tasks\day6task4\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1669508787 source:d:\iti\c\tasks\day6\day6task4\main.c
+	<stdio.h>
+	<stdlib.h>
+

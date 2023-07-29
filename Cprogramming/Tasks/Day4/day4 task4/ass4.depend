@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1666873797 source:c:\users\dell\desktop\day3\day4\ass4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1666873798 source:c:\users\aio\desktop\day3\day4\ass4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1668638158 source:d:\iti\c\tasks\day4\day4 task4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
