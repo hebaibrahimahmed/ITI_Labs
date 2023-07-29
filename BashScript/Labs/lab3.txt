@@ -1,0 +1,108 @@
+1-  Write a script called mycase, using the case utility to checks the type of character entered by a user:
+read -p "Enter a Character" ch 
+case $ch in 
+[a-z}) echo "lower Case";;
+[A-Z}) echo "Uper Case";;
+[0-9}) echo "it is a Number";;
+ *) echo "default"
+    esac 
+
+2-Enhanced the previous script, by checking the type of string entered by a user: 
+
+read -p "Enter a String " String
+
+case $String in 
+
++([a-z}) echo "lower Case";;
++([A-Z}) echo "Uper Case";;
++([0-9}) echo "it is a Number";;
+ +([a-zA-z]) ) echo "Mixed Character" ;;
+  +([a-zA-z0-9]) ) echo "Mixed Character and Number";;
+    *)echo "default"
+    esac 
+
+3-Write a script called mychmod using for utility to give execute permission 
+to all files and directories in your home directory. 
+for i in `ls $1`
+do 
+    #chmod +x $1/$i
+    #chmod +x ~/Assiut_Bash/dir1file1
+    #chmod +x file2
+    #chmod +x file3
+done 
+set -x # Enable debug  
+for i in `ls $1/*`
+do 
+    echo $i
+    #chmod +x ~/Assiut_Bash/dir1file1
+    #chmod +x file2
+    #chmod +x file3
+done 
+
+4-Write a script called mybackup using for utility to create a backup of only files 
+in your home directory.
+
+line =$(ls)
+mkdir mybackup 
+for i in $line mybackup 
+done 
+ls -l mybackup 
+
+echo "Done"
+
+5- Write a script called mymail using for utility to send a mail to all users in the system
+Note: write the mail body in a file called mtemplate
+
+6-
+
+mail [nameofuser] < [letterFile]
+
+
+Bonus :-
+
+8- 
+
+select p in ls ls_a exit 
+do 
+case $p in 
+(ls) ls $1 ;;
+(ls_a) ls $1;;
+(exit) break ;;
+esac
+done 
+
+9- 
+
+read -p "Enter the Elements of the Array : " arr
+
+for i in ${arr[@]}
+do
+echo "Element : " $i
+done 
+
+10-
+
+read -p "Enter the Array Size : " Size
+sum = 0
+i=1
+
+while [$i -le $size ]
+do 
+red -p "Enter Number : " Num
+
+sum = $((sum+Num))
+done
+avg= ' echo "scale=2;$sum/$Size" | bc'
+
+#avg=$(echo $sum / $Size | bc -1)
+echo "The Average = " $avg
+
+11- 
+mysqr(){
+read -p "Enter a Number : " Num
+sqrt=$(echo "$num" | awk '{print sqrt ($1)}')
+echo "Squere of $Num = $sqrt"}
+
+
+
+

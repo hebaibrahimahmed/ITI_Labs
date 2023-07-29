@@ -1,0 +1,160 @@
+1)
+   sudo usermod -aG pgroup islam  
+
+2) 
+
+ log in == su islam or su root 
+ exit ==  ctrl + D
+
+3)
+
+-sudo passwd islam 
+-Changing password for user islam
+ New password:password 
+ Retype new password:password 
+
+4)
+
+ chage -M 30 islam ---> change max. will change password expire
+
+5)
+
+Method 2: sudo usermod -L baduser
+
+6)
+
+ sudo userdel -r baduser
+
+7)
+
+sudo groupdel badgroup
+
+8)
+
+*from root acount
+
+passwd 
+Changing password for user root
+New password:password 
+Retype new password:password 
+
+* from another useracount
+
+sudo passwd root
+Changing password for user root
+New password:password 
+Retype new password:password 
+
+
+9)
+
+su  -> rm /tmp/
+
+
+10)
+
+ mkdir /tmp/myteam 
+ chmod 400 /tmp/myteam
+
+11)
+
+ log in == su islam or su root 
+ exit ==  ctrl + D
+
+12)
+
+cd ~heba /home/myteam
+or
+cd /home/heba/myteam
+or
+cd /root/myteam
+
+13)
+
+- first method : chmod 631  /tmp/mycv
+
+- second method :
+
+chmod u=rw,g=wx,o=x mycv 
+
+14)
+
+a- rwx
+b- no permission (to delete dir)
+c- x
+d- r ( list a dir content)
+e- r (view a file content )
+f-rw( modify a file )
+
+
+15)
+
+touch  /tmp/newfile.txt
+chmod 444/tmp/newfile.txt
+
+can not edit but we can delete it 
+16)
+
+ the difference between the “x” permission for a file and for a directory 
+
+ file -> run app
+ dir -> cd
+
+17) 
+  env  or printenv to see all variables in your shell.
+
+  HOME PATH USER HOSTNAME.....
+
+18)
+
+x=5
+
+echo ${x} or echo $x  to  list the value of a specific variable
+
+
+19)
+
+ echo $USER  to display the name of the current user
+
+20)
+
+  
+  alias Ls='ls -l' to create abash shell alias
+
+  bypass alias 
+
+  alias Ls='ls -l'
+
+  /usr/bin/ls
+
+and then save the file 
+
+21) 
+
+# ping www.google.com
+or
+# host www.google.com
+
+or ifconfig  to check if your internet connection is work
+
+22)
+
+ 195.10.10.2   www.iti-project-dep.com  [aliases]     or $ sudo vi /etc/hosts 
+
+195.10.10.2   www.iti-project-dep.com 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+

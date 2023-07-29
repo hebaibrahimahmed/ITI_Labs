@@ -1,0 +1,46 @@
+1) 
+mkdir dir1 docs
+
+[root@localhost ~]# [root@localhost ~]# mkdir -p dir1/dir11/
+
+[root@localhost ~]# [root@localhost ~]# mkdir -p dir1/dir12/
+
+[root@localhost ~]# [root@localhost ~]# touch dir1/dir11/file1.txt
+
+
+2) [root@localhost ~]# rm -r dir11 هيرميه بالفايلات ال جواه rmdir مش بيححذف الفايلات ال جواه
+
+3)  [root@localhost ~]# cp /etc/passwd "$HOME/mypasswd" 
+
+4) [root@localhost ~]# mv mypasswd oldpasswd
+
+5 ) [root@localhost ~]# man 5 passwd
+
+6)man -k passwd 
+
+7 )
+
+	cd ~
+	cd 
+	cd /home/heba/
+	cd ../../home/heba/
+	
+
+8 ) 
+
+	vi /etc/passwd
+	vi ../../etc/passwd
+	
+9 )  du -sch ~
+
+10 )  ls -l /etc/*.config
+
+11 )
+	mkdir /tmp/myconfig
+	cp /etc/*.config  /tmp/myconfig
+
+	
+12)  rm -r /tmp/myconfig
+
+
+13 )  head -n 5 /etc/passwd

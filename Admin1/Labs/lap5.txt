@@ -1,0 +1,149 @@
+1)
+  
+ wc -l /etc/passwd  to count the users at your mashine 
+
+2)
+
+ cut games /etc/passwd  to  Search on user name “games”.
+ or grep ^games  /etc/passwd  
+
+3)
+
+ w to get the logins names of Users. 
+or who  but it show less details 
+
+4)
+
+ grep "^$id:"  /etc/passwd  to get the fullname 
+
+or cut -d: -f1,5  /etc/passwd 
+
+5) & 6)
+
+sleep 100 &
+[1] 3028
+[1] + Done
+jobs
+[1] + Running sleep 100&
+fg 1
+sleep 100
+Ctrl+Z
+ [1] + Stopped (SIGTSTP) sleep 100
+jobs
+
+7) & 8) Resume the last command in the background
+
+bg %1
+[1] sleep 100&
+jobs to display all pr under bash , it display the jop id.
+[1] + Running sleep 100&
+
+
+9)
+
+sleep 100 to send the the jop to the foreground
+
+jops 
+
+[1] + Running sleep 100 
+
+sleep 100 & to send it back to the background
+
+jobs to display all pr under bash , it display the jop id.
+[1] + Running sleep 100&
+
+
+10)
+
+kill -9 %1 to kill the p with jop id
+
+
+11) Display your processes only
+
+ ps -aux | grep ^username  Display your processes only
+
+
+12) Use the pgrep command to list your processes only
+
+pgrep -u username   it display the name with id for user  
+
+13) 
+
+cut -d: -f1 /etc/passwd   1 >> /tmp/commands.list    to append  
+
+or cut -d: -f1   /bin/ls >> /tmp/commands.list    to append 
+
+
+14)
+
+- wc < /tmp/commands.list  or  wc  /tmp/commands.list  
+
+         to count the num of commands.
+
+
+15) & 16) 
+
+firefox  to start firefox
+
+pgrep -x firefox to display the id 
+
+Kill -9 13915  or pkill -9 firefox to kill firefox 
+
+killed   firefox
+
+
+17) Get the logins name and full names (comment) of logins starts with “gu
+
+cut -d : -f1,5 | grep ^gu
+
+
+18) Display the number of users who is logged now to the system
+
+   who | wc -l   
+or  users | wc -l   
+
+
+19) Display lines 7 to line 10 of /etc/passwd file 
+
+head -n 10 /etc/passwd |tail -n4
+
+
+20)Search for all files on the system that named “.bash_profile” using two 
+ methods. 
+
+
+1- ls -R / | grep bash_profile
+2- find - name bash_profile 
+3- locate bash_profile
+
+21)
+
+install ncompress, ksh
+
+sudo apt install ncompress, ksh
+
+22)
+
+killall -u username
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

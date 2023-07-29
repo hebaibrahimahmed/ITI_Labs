@@ -1,0 +1,63 @@
+1)
+$ vi /tmp/mycv
+1G Name : Heba Ibrahim Ahmed Mohamed
+2G Age : 25 
+3G  school : alshahid mohamed kamel
+4G  college : Faculty of Al-alsun
+5G  experience : worked by FTI Touristik.
+
+
+2)
+
+$ vi /tmp/mycv 
+a. Move the cursor down one line at time.
+press on j
+
+b. Move t0he cursor up one line at time.
+press on k
+
+c. Search for word age
+/age
+
+d. Step to line 5 (assuming that you are in line 1 and file is more than 5 lines).
+5G
+
+e. Delete the line you are on and line 5.
+dd   /  5G dd
+
+f. How to step to the end of line and change to writing mode in one-step.
+
+ press A from keyboard
+
+3)
+
+-sudo useradd islam
+-sudo usermod -c 'Administrator' islam ASkar
+-sudo passwd islam 
+ Changing password for user islam
+ New password:islam
+ Retype new password:isalm
+
+4)
+
+sudo useradd baduser 
+-sudo usermod -c 'Administrator' Bad User 
+-sudo passwd  baduser 
+or -Changing password for user  baduser 
+ New password: baduser
+ Retype new password: baduser
+
+
+
+5) 
+
+- groupadd pgroup
+- groupadd -g 30000 pgroup
+
+
+6)
+groupadd badgroup
+
+
+
+

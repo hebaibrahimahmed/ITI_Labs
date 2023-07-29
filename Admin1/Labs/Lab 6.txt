@@ -1,0 +1,97 @@
+1)
+
+sort -t: -k5 /etc/passwd >/dev/null
+
+2)
+
+find / -type f -name "*passwd*"
+locate "*passwd*"
+
+
+3)
+
+#yum install ncompress,ksh
+
+compress newfile.txt
+uncompress newfile.z
+bz2 newfile.txt
+bunzip2 newfile.bz2
+
+5)
+
+zcat newfile.z
+
+6)
+
+ tar cf newfile2 /Archive/etc
+
+
+7)
+
+find /home/heba -type f -mtime -2 
+
+8)
+
+ find /etc -type f -user root
+
+9)
+
+ find /home/heba -type d
+
+
+10)
+
+ find / -type f ".profile"
+
+
+11)
+
+ find / -type d -perm 777
+
+
+12)
+
+ yum remove ncompress , ksh
+
+13)
+
+ln -s /etc/passwd /heba/user_details
+
+14) 
+
+lls -l  /home/iti/f1.txt 
+
+ln /home/iti/f1.txt /home/iti/Desktop
+
+ls -l /home/iti/f1.txt /home/iti/Desktop
+
+
+15)
+
+ls-i /home/iti/f1.txt
+
+10978 /home/iti/f1.txt
+
+16)
+
+cp /etc/passwd /home/user/work/my_passwd
+
+vim /home/user/work/my_passwd
+
+I hello linux 
+
+ diff /etc/passwd  home/user/work/my_passwd
+
+hello linux 
+
+
+
+
+
+
+
+
+use the commands diff, and Edit in the file you copied, and then use these command again, and check the output. 
+
+
+

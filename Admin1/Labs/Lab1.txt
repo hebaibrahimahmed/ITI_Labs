@@ -1,0 +1,40 @@
+1. Install Ubuntu Desktop 
+
+2. What is the different between cat and more command?
+
+cat command show us the content of the file
+
+more command to display the file with pausing 
+
+ 3. What is the command that will show system info? 
+
+ command uname-a
+
+
+4. What is the command that will print current timestamp? 
+
+the date command
+
+
+5. What is the command that will print calendar of December 2001? 
+
+$ cal 12 2001
+
+6. What is the command that will create file at current directory?
+ 
+touch command 
+
+7. What is the command that will print “hello world” at screen?
+
+The echo command
+
+8. What is the difference between rm and rmdir using man?
+
+rm remove the folder with its content 
+rmdir remove the empty diroctory
+ 
+9. Display the man page of passwd command. 
+
+man passwd
+ 
+ 
