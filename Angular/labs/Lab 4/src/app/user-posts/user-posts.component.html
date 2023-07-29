@@ -1,0 +1,30 @@
+<h1 class="m-auto">{{user.name }}</h1>
+<h3>Posts :</h3>
+<div *ngFor="let post of userPosts ; index as i">
+    <h5>{{i+1}} - <a [routerLink]="'/posts/'+post.id">{{post.title | titlecase}}</a> </h5>
+    <p>{{post.body}}</p>
+    <br>
+    <br>
+    <br>
+</div>
+
+
+
+
+
+
+<div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Title</label>
+    <input #title type="text" class="form-control" id="formGroupExampleInput" placeholder="Title">
+</div>
+<div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label">Body</label>
+    <input #body type="text" class="form-control py-5" id="formGroupExampleInput2" placeholder="Another input placeholder">
+  </div>
+ <div class="col-auto">
+        <button (click)="addPost(title,body)"  type="submit" class="btn btn-primary m-auto">Add post</button>
+</div>  
+
+
+
+

@@ -1,0 +1,9 @@
+<h1>{{ post.title }}</h1>
+<h3>{{ post.body }}</h3>
+<br />
+<br />
+<h5>Comments :</h5>
+<div *ngFor="let comment of comments; index as i">
+  <p>{{ i + 1 }} - {{ comment.name }}</p>
+  <p>{{ comment.body }}</p>
+</div>
