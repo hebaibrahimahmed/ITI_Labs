@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <div 
+    ondragover="event.preventDefault()"
+    ondrop="DropElement(this)"
+    id="div1"
+    style="width: 100px;height: 100px;border: 5px solid red;">
+</div>
+<img style="width: 100px;height:100px;" draggable="true" src="1.png" id="1" ondragstart="GiveId(this)">
+<script>
+    var imgObj;
+    function GiveId(imgelem){
+        console.log("Image drag start");
+        imgObj=imgelem;
+        
+    }
+    function DropElement(elem){
+        console.log("Image drop on Div");
+        if(imgObj.id=="1"){
+            var img=imgObj.cloneNode(true);
+            elem.appendChild(img);
+        }
+    }
+</script>
+
+
+</body>
+</html>

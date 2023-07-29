@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  
+    <div>
+        <video poster="p.png" id="vid" onclick="playVideo()" controls  muted autoplay>
+            <p> AboutMe   </p>
+            <source src="sample.mp4" type="video/mp4">
+            <source src="sample.webm" type="video/webm">
+            
+        </video>
+   
+    <script>
+        function playVideo(){
+            if(document.getElementById("vid").paused)
+                document.getElementById("vid").play();
+            else
+                document.getElementById("vid").pause();
+    
+        }
+    </script>
+
+
+    
+</body>
+</html>
