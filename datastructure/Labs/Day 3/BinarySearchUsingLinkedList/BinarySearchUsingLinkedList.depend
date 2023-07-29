@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1669396304 source:d:\iti-open source\data structure\labb\day 3\binarysearchusinglinkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+

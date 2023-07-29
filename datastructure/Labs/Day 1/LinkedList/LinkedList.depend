@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1668932810 source:d:\iti-open source\data structure\labb\day 1\1.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
+1670854556 source:e:\iti\data structure\labs\day 1\1.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
