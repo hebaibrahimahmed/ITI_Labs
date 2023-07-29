@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1670058430 source:d:\work\instructor\oop\intake43\assiut - pwd\day8\main.cpp
+	<iostream>
+	"MyList.h"
+	"Employee.h"
+	"EmployeeList.h"
+
+1670055488 d:\work\instructor\oop\intake43\assiut - pwd\day8\include\mylist.h
+
+1670053487 d:\work\instructor\oop\intake43\assiut - pwd\day8\include\employee.h
+
+1670055037 d:\work\instructor\oop\intake43\assiut - pwd\day8\include\employeelist.h
+	"MyList.h"
+	"Employee.h"
+

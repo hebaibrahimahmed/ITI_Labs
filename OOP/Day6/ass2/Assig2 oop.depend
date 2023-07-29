@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1669817077 source:d:\c++\assig2 oop\main.cpp
+	<iostream>
+	"Rectangle.h"
+	"Shape.h"
+	"Circle.h"
+	"Square.h"
+
+1669967980 d:\c++\assig2 oop\include\rectangle.h
+	"Shape.h"
+
+1669967840 d:\c++\assig2 oop\include\shape.h
+
+1669967899 d:\c++\assig2 oop\include\circle.h
+
+1669967980 d:\c++\assig2 oop\include\square.h
+	"Rectangle.h"
+

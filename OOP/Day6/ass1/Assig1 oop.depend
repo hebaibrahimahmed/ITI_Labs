@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1669809442 source:d:\c++\assig1 oop\main.cpp
+	<iostream>
+	"Line.h"
+	"Point.h"
+
+1669811228 d:\c++\assig1 oop\include\line.h
+	"Point.h"
+	<math.h>
+
+1669809061 d:\c++\assig1 oop\include\point.h
+

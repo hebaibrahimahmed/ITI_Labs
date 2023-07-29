@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1669937769 source:d:\iti 9 months\oop\day6\typesofinheritence\main.cpp
+	<iostream>
+	"childone.h"
+	"parent.h"
+	"childone.h"
+	"childtwo.h"
+
+1669937888 d:\iti 9 months\oop\day6\typesofinheritence\include\childone.h
+	"parent.h"
+	"childtwo.h"
+
+1669937921 d:\iti 9 months\oop\day6\typesofinheritence\include\parent.h
+
+1669937947 d:\iti 9 months\oop\day6\typesofinheritence\include\childtwo.h
+	"parent.h"
+
