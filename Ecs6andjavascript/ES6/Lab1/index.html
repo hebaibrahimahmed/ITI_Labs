@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <select name="drop1" id="mySelect"> 
+      <option> ---Choose a student--- </option>  
+    </select>
+    <button type="button" onclick="myFunction()">Insert option</button>
+     
+
+
+    
+<script>
+//////////////////////////////////////////////////////// 1)
+
+// var students= ["Ahmed","Mohamed","heba","Sarah","Salma"];
+
+//  for(var item in students){
+ 
+//      console.log(students[item]);
+// }
+//  for(var item of students)
+//  {
+//      console.log(item);
+//  }
+
+//  for (var item of students)
+//  {
+
+//     console.log(item);
+//  }
+
+//  students.forEach(myFunction);
+
+// function myFun(item) {
+//   console.log(item)
+// }
+//  ////////////////////////////////////////////////////// 2) 
+
+//  var student={
+
+//     "firstName":"Ahmed",
+//     "lastName":"mohamed",
+//     "University":"sohag",
+//     "faculty":"al-alsun",
+//     "finalgrad": 89,
+//  }
+
+//  console.log(`First name of the student is ${student.firstName} and last name is ${student.lastName} and in faculty is ${student.faculty} and final grad is ${student.finalgrad} and university is ${student.University} `);
+
+// ///////////////////////////////////////////////////////// 3)
+
+// function getMax(...args)
+//  {
+//     let maxNumber= args[0];
+//     for(let i=1;i<args.length;i++)
+//      {
+//         if(args[i]>maxNumber)
+//         {
+//             maxNumber=args[i];
+//         }
+//     }
+//     return maxNumber;
+// }
+
+// var r1=getMax(10,20, 1,0.-15,80,10);
+// console.log(r1);
+
+
+// /////////////////////////////////////////////// 4)
+
+//  let students=['ahmed','mohamed','sarah'];
+//  let morestudents=['sara','ali','khaled'];
+//  let allstudents=[...students,...morestudents];
+
+//  //Print the set values using spread operator and using for…of.
+
+//  for(var item of allstudents)
+//  {
+//      console.log(item);
+//  }
+
+
+////////////////////////////////////////////// 5)
+
+// (function (){
+
+// alert("welcome to ITI");
+
+
+// let person = prompt("Please enter your name", "heba");
+// let  faculty = prompt("please enter Your faculty Name","al-alsun");
+// let department = prompt("please enter Your department","german");
+
+// //if (faculty!= null)
+// // {
+//  //document.getElementById("demo").innerHTML =
+//   //faculty;
+// // }
+  
+
+//   alert("heba");
+//   alert("german");
+
+//   //if (faculty!= null)
+//   //document.getElementById("demos").innerHTML =
+//  // department;
+
+// })();
+
+///////////////////////////////////////// 6)
+
+//1  destructuring assignment
+// var a = 12, b = 24;
+
+//  function swap1(a,b){
+
+//     [ a, b ] = [ b, a ];
+
+
+// }
+
+// //2 
+
+// function swap2(a,b){
+
+//      var temp;
+//      temp = a;
+//      a = b;
+//      b = temp;
+
+// }
+
+/////////////////////////////////  7)
+
+// function myfunction(a,b)
+//  {
+//      return [
+//         a+b,
+//         (a+b)/2,
+//          a-b
+//      ]
+//  }
+
+//  let [sum,avg,diff]=myfunction(15,5);
+
+// /////////////////////////////////////////  8)
+
+// let names=['Ahmed',...'mohamed','sarah']; 
+// let morenames =['khaled','sohaip',...'hala'];
+// let allnames = [...names,...morenames];
+
+
+// for(let i=0;i<allnames.length;i++)
+// {
+//     console.log(allnames[i]);
+// }
+
+
+/////////////////////////////////////////// 9)
+
+  let map = new Map();
+  
+  map.set ("heba",
+{
+  Grades:[
+{Coursename:"JavaScript", Grade:"Excellent"},
+{Coursename:"Jquery", Grade:"Good"},
+{Coursename:"CSS", Grade:"V.Good"}] 
+ } ,
+  
+  );
+
+  for(let i=0;i<map.length;i++)
+{
+    console.log(map[i]);
+}
+
+map.set ("salma",
+
+{ Grades:[
+{Coursename:"JavaScript”", Grade:"v.good"},
+{Coursename:"Jquery", Grade:"v.Good"},
+{Coursename:"CSS", Grade:"V.Good"}] },
+
+)
+
+for(let i=0;i<map.length;i++)
+{
+  console.log(map[i]);
+}
+
+map.set ("ahmed",
+
+{ Grades:[
+{Coursename:"JavaScript”", Grade:"Excellent"},
+{Coursename:"Jquery", Grade:"Good"},
+{Coursename:"CSS", Grade:"Good"}] } ,
+
+)
+
+for(let i=0;i<map.length;i++)
+{
+  console.log(map[i]);
+}
+
+
+/////////////////////////////////////
+function myFunction() {
+ 
+
+
+var array = ["heba","salma","ahmed"];
+
+
+var selectList = document.getElementById("mySelect");
+
+for (var i = 0; i < map.size; i++) {
+    var option = document.createElement("option");
+    option.value = array[i];
+    option.text = array[i];
+    selectList.appendChild(option);
+}
+
+selectList.addEventListener("change",function(){
+  let val=selectList.value;
+for (let [key, value] of map) {
+  if(val==key)
+  {
+    console.log(value.Grades.length);
+    for(let j=0;j<value.Grades.length;j++)
+    {
+    document.write(value.Grades[j].Coursename,"<br>");
+
+    }
+    
+  }
+}
+}
+)
+}
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Assignment 2</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <input type="text" id="name">
+        <input type="password" id="pass">
+        <button onclick="setData()">Login</button>
+        <!-- <button onclick="getData()">Get Data</button>
+        <button onclick="deleteData()">Delete Data</button> -->
+        <input type="checkbox" id="rememberMe">Remember Me
+    </form>
+
+
+    <script>
+
+        ////################### Answer Question Two ########################
+
+        const remembMe = document.getElementById("rememberMe"),
+            nameInput = document.getElementById("name");
+        passData = document.getElementById("pass");
+
+        if (localStorage.checkbox && localStorage.checkbox !== "") {
+            remembMe.setAttribute("checked", "checked");
+            nameInput.value = localStorage.username;
+            passData.value = localStorage.password;
+        } else {
+            remembMe.removeAttribute("checked");
+            localStorage.removeItem("username");
+            localStorage.removeItem("password");
+        }
+
+        function setData() {
+            if (remembMe.checked && nameInput.value !== "") {
+                localStorage.username = nameInput.value;
+                localStorage.password = passData.value;
+                localStorage.checkbox = remembMe.value;
+            } else {
+                localStorage.username = "";
+                localStorage.password = "";
+                localStorage.checkbox = "";
+            }
+        }
+    </script>
+</body>
+
+</html>

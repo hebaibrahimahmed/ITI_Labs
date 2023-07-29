@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Assignment 1</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <input type="text" id="name">
+        <input type="password" id="pass">
+        <button onclick="setData()" >login</button>
+        <br>
+        <br>
+        <button onclick="getData()" >Get Data</button>
+        <br>
+        <br>
+        <button onclick="deleteData()" >Delete Data</button>
+        
+    </form>
+    <script>
+         function setData() {
+            var inputValue = ""
+            inputValue += document.getElementById("name").value;
+            var inputPass = ""
+            inputPass += document.getElementById("pass").value;
+            localStorage.setItem("UserNameData", inputValue)
+            localStorage.setItem("PasswordData", inputPass)
+            alert("Data set Successfully")
+            //sessionStorage.setItem("UserNameData",sessionStorage.getItem("UserNameData")+inputValue)
+
+        }
+
+        function getData() {
+            var savedData = localStorage.getItem("UserNameData");
+            var passData = localStorage.getItem("PasswordData");
+            //var savedData=sessionStorage.getItem("UserNameData");
+
+            document.getElementById("name").value = savedData;
+            document.getElementById("pass").value = passData;
+
+        }
+
+        function deleteData() {
+            localStorage.removeItem("UserNameData");
+            localStorage.removeItem("PasswordData");
+            //sessionStorage.removeItem("UserNameData");
+
+            alert("Data Removed Successfully")
+        }
+    </script>
+</body>
+
+</html>
