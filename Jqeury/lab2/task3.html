@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.3.js"></script>
+    <script>
+        $(function () {
+            $('li').click(function () {
+                $('#paste').append($(this)).clone
+            
+            })
+
+            $('#addrecord').click(function(){
+            var add=$('#text').val()
+            $('#copy').append(add);
+            })
+
+            })
+    </script>
+</head>
+<body>
+   
+   <div style="width: 300px;height: 200px;cursor: pointer; border: 2px solid black;">
+
+    <ul id="copy">
+        <li>mahmoud</li>
+        <li>karim</li>
+        <li>mona</li>
+        <li>mena</li>
+        <li>sarah</li>
+        <li>sohaip</li>
+        <li>mary</li>
+    </ul>
+   </div> 
+   <br>
+   <br>
+    <div id="paste" style="width: 300px;height: 200px;cursor: pointer; border: 2px solid black;">
+    </div>
+    <br>
+    
+    <input type="text" id="text">
+    <button id="addrecord">Add</button>
+    </span>
+
+</body>
+</html>

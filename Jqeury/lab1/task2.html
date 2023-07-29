@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="jquery-3.6.3.js"></script>
+    <script>   
+    $(function () {
+
+    $("#add").click(function(){
+   var c1= parseInt($('#firstNum').val());
+   var c2= parseInt($('#secNum').val());
+   var c3= c1+c2;
+   $('#result').text(c3);
+
+});
+
+$("#multible").click(function(){
+    var m1= parseInt($('#firstNum').val());
+   var m2= parseInt($('#secNum').val());
+   var m3=parseInt(m1*m2);
+   $('#result').text(m3);
+});
+
+$("#substract").click(function(){
+    var s1= parseInt($('#firstNum').val());
+   var s2= parseInt($('#secNum').val());
+   var s3=parseInt(s1-s2);
+   $('#result').text(s3);
+});
+
+$("#div").click(function(){
+    var s1= parseInt($('#firstNum').val());
+   var s2= parseInt($('#secNum').val());
+   var s3=parseInt(s1/s2);
+   $('#result').text(s3);
+});
+
+
+    })
+
+    </script>
+</head>
+<body>
+    
+   <input id="firstNum">
+    <input id="secNum">
+  
+    <br>
+    <button id="add">Add</button>
+    <button id="multible">Multible</button>
+    <button id="substract">Substraction</button>
+    <button id="div">DIV</button>
+    <div id="result">result</div>
+
+
+</body>
+</html>

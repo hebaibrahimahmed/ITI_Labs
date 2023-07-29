@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #greeting {
+            width: 300px;
+            height: 50px;
+            background-color: aqua;
+
+        }
+
+
+    </style>
+
+    <script src="jquery-3.6.3.js"> </script>
+
+    <script>
+
+        $(function () {
+
+            // /////////////////////////1)
+            // $('<div id="greeting"> </div>').appendTo("body")
+
+            // $('#greeting').text('welcome guys')
+
+            // /////////////////////////////2)
+
+
+        //   $('<div id="greeting"> </div>').appendTo("body")
+
+        //     $('#greeting').css('background-color', 'yellow')
+
+
+            ////////////////////////////////////3)
+
+           
+
+            // $(':input:eq(0)').click(function () {
+
+            //     $('div:parent:has(p)').css('background-color', 'red')
+            //     $('div:parent:has(p)').css('width', '200px')
+            //     $('div:parent:has(p)').css('height', '100px')
+            //     $('div:parent:has(p)').css('text-align', 'center')
+            //     $('div').show(2000)
+               
+            // })
+
+            // $(':input:eq(1)').click(function () {
+            //     $('div').hide(2000)
+            // })
+
+                 ///////////////////////////////////////////////////////////   4)
+
+
+            //       $(':input:eq(2)').click(function () {
+            //     $('div').slideToggle(2000)
+            //  })
+
+                ///////////////////////////////////////////////////////    5)
+
+
+            $(':input:eq(0)').click(function()
+            {
+               $('div:has(span)').text('hello heba')
+
+            })
+
+
+
+
+        })
+
+    </script>
+
+
+</head>
+
+<body>
+
+<!-- 
+    <div style="display: none;">
+        <p> Hello guys</p>
+    </div>
+
+    <input type="button" value=" show">
+    <input type="button" value="hide">
+    <input type="button" value="slidetoggle"> 
+
+5 --> -->
+    <div >
+        <span></span>
+    </div>
+<input type="button" value="displayname">
+
+
+</body>
+
+</html>
