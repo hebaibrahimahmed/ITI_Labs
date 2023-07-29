@@ -1,0 +1,37 @@
+#midcontent {
+    display: inline-block;
+    width: 60%
+}
+
+#rightmenu {
+    display: inline-block;
+    width: 20%
+}
+
+#left-menu {
+    display: inline-block;
+    width: 20%
+}
+
+#header {
+    height: 20%
+}
+
+#footer {
+    height: 5%
+}
+
+#content {
+    height: 75%
+}
+
+div.headerFooter {
+    background-color: gray;
+    text-align: center;
+    font-size: 20
+}
+
+span {
+    float: left;
+    height: 100%
+}

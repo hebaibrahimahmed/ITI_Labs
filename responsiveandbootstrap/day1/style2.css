@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+.container
+{
+   display: grid;
+   grid-auto-rows: minmax(40px,auto);
+   grid-template-areas: 
+   "header header header header header header "
+   "main main main main main main"
+   "s1 s1 s2 s2 s3 s3"
+   "s4 s4 s4 s5 s5 s5"
+   "footer footer footer footer footer footer"
+   ;
+  
+   grid-gap: 10px;
+}
+
+.box
+{
+   background-color:brown;
+   text-align: center;
+   display: flex;
+    
+   
+}
+.header
+{
+    grid-area: header;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+   
+
+}
+.header li
+{
+
+    list-style-type: none;
+   
+    
+}
+.header a
+{
+    display: flex;
+    text-decoration: none;
+    
+    border-radius: 20%;
+    
+
+}
+
+.main
+{
+    grid-area: main;
+    height: 50vh;
+ 
+}
+.main img
+{
+    width: 100%;
+   
+}
+.section1
+{
+    grid-area: s1;
+   
+}
+.section1 img
+{
+ width: 30%;
+ border-radius: 50%;
+ 
+}
+.section2
+{
+    grid-area: s2;
+  
+}
+.section2 img
+{
+    width: 30%;
+    border-radius: 50%;
+}
+.section3
+{
+    grid-area: s3;
+}
+.section3 img
+{
+    width: 30%;
+    border-radius: 50%;
+}
+.section4
+{
+    grid-area: s4;
+    justify-content: space-around;
+}
+.section4 img
+{
+    width: 20%;
+    border-radius: 10%;
+    padding: 10%;
+
+  
+}
+.section5
+{
+    grid-area: s5;
+    justify-content: space-around;
+    
+}
+#m1::-webkit-meter-optimum-value {
+    background-color: orange;
+}
+
+#m2::-webkit-meter-optimum-value {
+    background-color:blueviolet;
+}
+
+#m3::-webkit-meter-optimum-value {
+    background-color: red;
+}
+.footer
+{
+    grid-area: footer;
+    background-color: rgb(65, 60, 60);
+    justify-content: space-around;
+}
+.footer li
+{
+    list-style-type: none;
+   padding: 10%;
+}

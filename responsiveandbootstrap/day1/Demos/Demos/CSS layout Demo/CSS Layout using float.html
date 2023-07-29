@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <title> CSS Layout Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #header {
+            height: 20%
+        }
+        
+        #footer {
+            height: 5%
+        }
+        
+        #content {
+            height: 75%
+        }
+        
+        div.headerFooter {
+            background-color: gray;
+            text-align: center;
+            font-size: 20
+        }
+        
+        span {
+            float: left;
+            height: 100%
+        }
+    </style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Mohamed Sayed</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">139200.000000000</mso:Order>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Mohamed Sayed</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x01010079FB82A38D517E4CB695D5C18013FDE1</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:MediaLengthInSeconds msdt:dt="string"></mso:MediaLengthInSeconds>
+<mso:TaxCatchAll msdt:dt="string"></mso:TaxCatchAll>
+<mso:MediaServiceImageTags msdt:dt="string"></mso:MediaServiceImageTags>
+<mso:lcf76f155ced4ddcb4097134ff3c332f msdt:dt="string"></mso:lcf76f155ced4ddcb4097134ff3c332f>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body style="margin:0">
+    <div id="header" class="headerFooter"> This is header</div>
+    <!--<div id="content">-->
+    <span style="width:20%; background-color:green">
+				<ul>
+					<li>item 1</li>
+					<li>item 1</li>
+					<li>item 1</li>
+					<li>item 1</li>
+				</ul>
+			</span>
+
+    <span style="width:60%; background-color:pink">
+				<p style="text-align:center; font-size:30">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. . Nulla ullamcorper vestibulum consequat. Donec accumsan blandit vehicula. Cras neque dui, accumsan in imperdiet sit amet, porttitor ut quam.
+
+					
+				</p>
+			</span>
+
+    <span style="width:20%; background-color:red;text-align:right;"> <!-- clear:right"> -->
+				<ul>
+					<li>item 1</li>
+					<li>item 1</li>
+					<li>item 1</li>
+					<li>item 1</li>
+				</ul>
+			</span>
+    <!--</div>-->
+    <div style="clear:both"></div>
+    <!-- t=prev. div for clearing the float (((OR))) to use clear:right for last span, and clear:left for the next div -->
+    <div id="footer" class="headerFooter float-clear">
+        <!-- style="clear:left">  -->
+        This is footer</div>
+
+</body>
+
+</html>

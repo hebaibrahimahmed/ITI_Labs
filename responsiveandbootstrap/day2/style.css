@@ -1,0 +1,32 @@
+h1
+{
+    color: rgb(72, 87, 73);
+}
+
+#highligh
+{
+color: rgb(11, 225, 89);
+display: inline;
+}
+
+.card{
+   /* height: 13rem; */
+   display: inline;
+}
+.card-body a {
+background-color: rgb(252, 251, 251);
+color: black;
+border-color:  rgb(87, 72, 79);
+
+}
+.card-body a:hover{
+    background-color:rgb(11, 225, 89) ;
+    color: black;
+    border-color:  rgb(87, 72, 79);
+}
+.card img{
+    height: 4rem;
+    width: 6rem;
+    margin-left: 20px;
+
+}
